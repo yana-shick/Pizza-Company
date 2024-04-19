@@ -61,7 +61,7 @@ Start the development server:
 
     $ npm run dev
 
-Open your browser and visit http://localhost:5173/ to view the app.
+Open your browser and visit http://localhost:5173/Pizza-Company to view the app.
 
 ## Credits
 
