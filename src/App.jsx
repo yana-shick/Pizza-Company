@@ -17,21 +17,21 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     errorElement: <Error />, //it can be here or in menu as well
     children: [
-      { path: '/Pizza-Company', element: <Home /> },
+      { path: '', element: <Home /> },
       {
-        path: '/Pizza-Company/menu',
+        path: 'menu',
         element: <Menu />,
         loader: menuLoader,
         errorElement: <Error />,
       },
-      { path: '/Pizza-Company/cart', element: <Cart /> },
+      { path: 'cart', element: <Cart /> },
       {
-        path: '/Pizza-Company/order/new',
+        path: 'order/new',
         element: <CreateNewOrder />,
         action: createOrderAction,
       },
       {
-        path: '/Pizza-Company/order/:orderId',
+        path: 'order/:orderId',
         element: <Order />,
         loader: orderLoader,
         errorElement: <Error />,
