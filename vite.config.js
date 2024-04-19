@@ -4,7 +4,7 @@ import eslint from 'vite-plugin-eslint';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Pizza-Company',
+  // base: '/Pizza-Company',
   plugins: [react()],
   // if i make this: its crashes app if ANY mistake
   // plugins: [react(), eslint()],
