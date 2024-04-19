@@ -31,12 +31,12 @@ Built with:
 3. Usage of Tailwind CSS: creating custom rules.
 
 4. Creating custom UI components.
-
-<img src="public/Screenshot1.png" alt= “Preview” width="250px">
-<img src="public/Screenshot2.png" alt= “Preview” width="250px">
-<img src="public/Screenshot3.png" alt= “Preview” width="250px">
-<img src="public/Screenshot4.png" alt= “Preview” width="250px">
-<img src="public/Screenshot5.png" alt= “Preview” width="250px">
+   <br/>
+   <img src="public/Screenshot1.png" alt= “Preview” width="250px">
+   <img src="public/Screenshot2.png" alt= “Preview” width="250px">
+   <img src="public/Screenshot3.png" alt= “Preview” width="250px">
+   <img src="public/Screenshot4.png" alt= “Preview” width="250px">
+   <img src="public/Screenshot5.png" alt= “Preview” width="250px">
 
 ## Usage
 
