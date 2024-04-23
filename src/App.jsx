@@ -16,14 +16,18 @@ const router = createBrowserRouter(
   [
     {
       element: <AppLayout />,
-      errorElement: <Error />, //it can be here or in menu as well
+      errorElement: (
+        <AppLayout>
+          <Error />
+        </AppLayout>
+      ), //it can be here or in menu as well
       children: [
         { path: '/', element: <Home /> },
         {
           path: '/menu',
           element: <Menu />,
           loader: menuLoader,
-          errorElement: <Error />,
+          // errorElement: <Error />,
         },
         { path: '/cart', element: <Cart /> },
         {
@@ -35,7 +39,7 @@ const router = createBrowserRouter(
           path: '/order/:orderId',
           element: <Order />,
           loader: orderLoader,
-          errorElement: <Error />,
+          // errorElement: <Error />,
           action: updateOrderAction,
         },
       ],
