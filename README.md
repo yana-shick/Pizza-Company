@@ -3,6 +3,8 @@
 PIZZA COMPANY is a training project that imitates ordering pizza online.  
 User can sign up with a name, choose pizza from a menu, review selected items in the cart, place order, review estimated delivery time, update order.
 
+[See Live](https://yana-shick.github.io/Pizza-Company/)
+
 ## Technologies used
 
 This is **Vite** and **React** based application written in **JavaScript**.
